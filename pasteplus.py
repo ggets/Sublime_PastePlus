@@ -1,11 +1,51 @@
 __author__='GG [github.com/ggetsov/]'
-__version__='1.0.2'
+__version__='1.0.4'
 __license__='Apache 2'
 __copyright__='Copyright 2021, Dreamflame Inc.'
 import sublime
 import sublime_plugin
+import os.path
+import sys
 import win32clipboard as w32c
 import copy
+name																						=os.path.basename(os.path.abspath(os.path.dirname(__file__)))
+name																						=name.replace('.sublime-package','')
+settings_file																		='%s.sublime-settings'%name
+
+def plugin_loaded():
+	load_settings()
+
+
+# for ST2 - manual call to plugin_loaded()
+if(sys.version_info<(3,)):
+	plugin_loaded()
+
+
+
+
+def load_settings():
+	global settings,settings_file
+	settings=sublime.load_settings(settings_file)
+def save_settings():
+	global settings,settings_file
+	sublime.save_settings(settings_file)
+	# print("save settings: ",settings)
+def get_setting(k,d=None):
+	global settings
+	try:
+		settings
+	except NameError:
+		load_settings()
+	return settings.get(k,d)
+def set_setting(k,d=None):
+	global settings
+	# print("set setting: ",settings)
+	try:
+		settings
+	except NameError:
+		load_settings()
+	settings.set(k,d)
+
 
 class PastePlusCommand(sublime_plugin.TextCommand):
 	def run(self,edit):
