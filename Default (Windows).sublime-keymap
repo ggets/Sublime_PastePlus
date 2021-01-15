@@ -1,0 +1,35 @@
+[
+	{
+		"keys": [ "ctrl+v" ],
+		"command": "paste_plus",
+		"context": [
+			{
+				"key": "pasteplus.replace_default_paste_shortcut",
+				"operator": "equal",
+				"operand": true
+			}
+		]
+	},
+	{
+		"keys": [ "ctrl+alt+v" ],
+		"command": "paste",
+		"context": [
+			{
+				"key": "pasteplus.replace_default_paste_shortcut",
+				"operator": "equal",
+				"operand": true
+			}
+		]
+	},
+	{
+		"keys": [ "ctrl+alt+v" ],
+		"command": "paste_plus",
+		"context": [
+			{
+				"key": "pasteplus.replace_default_paste_shortcut",
+				"operator": "equal",
+				"operand": false
+			}
+		]
+	}
+ ]
