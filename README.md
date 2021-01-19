@@ -34,6 +34,6 @@ git clone https://github.com/ggets/Sublime_PastePlus.git "Paste Plus"
 
 
 
-	**Ideas and pull requests are welcome**
+**Ideas and pull requests are welcome**
 
 
