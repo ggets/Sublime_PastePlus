@@ -1,23 +1,23 @@
 [
-  {
-    "caption":"Paste Plus: Paste Path or clipboard contents",
-    "command":"paste_plus",
-  },
-  {
-    "caption":"Paste Plus: Edit settings",
-    "command":"edit_settings",
-    "args":
-    {
-      "base_file":"${packages}/Paste Plus/PastePlus.sublime-settings",
-      "default":"{\n\t// Replace the default paste shortcut:\n\t\"replace_default_paste_shortcut\": false\n}\n"
-    }
-  },
-  {
-    "caption":"Paste Plus: Edit key bindings",
-    "command":"edit_settings",
-    "args":
-    {
-      "base_file":"${packages}/Paste Plus/Default (${platform}).sublime-keymap",
-    }
-  },
+	{
+		"caption":"Paste Plus: Paste Path or clipboard contents",
+		"command":"paste_plus",
+	},
+	{
+		"caption":"Paste Plus: Edit settings",
+		"command":"edit_settings",
+		"args":
+		{
+			"base_file":"${packages}/Paste Plus/PastePlus.sublime-settings",
+			"default":"{\n\n}\n"
+		}
+	},
+	{
+		"caption":"Paste Plus: Edit key bindings",
+		"command":"edit_settings",
+		"args":
+		{
+			"base_file":"${packages}/Paste Plus/Default (${platform}).sublime-keymap",
+		}
+	},
 ]
