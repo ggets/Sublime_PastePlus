@@ -1,6 +1,6 @@
 # PastePlus Sublime
 
-  A SublimeText plugin to allow copying paths from file(s) in Windows Explorer.
+  A Sublime Text plugin to allow copying paths from file(s) in Windows Explorer.
 
 
 ## Requirements:
@@ -15,18 +15,14 @@
 
 ## Installation
 
-### Sublime Package Control
-
-You can install Paste Plus using the excellent [Package Control][] package manager for Sublime Text:
+### Sublime Text [Package Control][] package manager
 
 1. Open "Package Control: Install Package" from the Command Palette (`Ctrl/Super` + `Shift` + `P`).
-2. Select the "Paste Plus" option to install Paste Plus.
+2. Select the "Paste Plus" option to install.
 
 [Package Control]: http://wbond.net/sublime_packages/package_control
 
-### Git Installation
-
-To install manually using Git, clone to your "Packages" directory.
+### Manual installation via Git
 
 ```bash
 git clone https://github.com/ggets/Sublime_PastePlus.git "Paste Plus"
