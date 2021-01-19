@@ -1,6 +1,6 @@
 # PastePlus Sublime
 
-  A plugin to allow copying paths from file(s) in Windows Explorer.
+  A SublimeText plugin to allow copying paths from file(s) in Windows Explorer.
 
 
 ## Requirements:
