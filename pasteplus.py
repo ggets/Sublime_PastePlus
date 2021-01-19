@@ -1,5 +1,5 @@
 __author__='GG [github.com/ggetsov/]'
-__version__='1.0.4'
+__version__='1.0.5'
 __license__='Apache 2'
 __copyright__='Copyright 2021, Dreamflame Inc.'
 import sublime
