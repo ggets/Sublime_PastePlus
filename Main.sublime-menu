@@ -19,7 +19,7 @@
 								"command":"edit_settings",
 								"args":
 								{
-									"base_file":"${packages}/Paste Plus/PastePlus.sublime-settings",
+									"base_file":"${packages}/Paste Plus/Paste Plus.sublime-settings",
 									"default":"{\n\n}\n"
 								}
 							},
